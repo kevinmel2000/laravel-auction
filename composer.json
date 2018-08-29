@@ -1,0 +1,35 @@
+{
+    "name": "soumen-dey/laravel-auction",
+    "description": "A lightweight yet powerful Auction Engine for Laravel 5.5 and above.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Soumen Dey",
+            "email": "soumendeyemail@gmail.com",
+            "homepage": "soumen.xyz"
+        }
+    ],
+    "homepage": "https://github.com/soumen-dey/laravel-auction",
+    "keywords": ["Laravel", "Auction"],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Soumen\\Auction\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Soumen\\Auction\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Soumen\\Auction\\AuctionServiceProvider"
+            ],
+            "aliases": {
+                "Auction": "Soumen\\Auction\\Facades\\Auction"
+            }
+        }
+    }
+}
