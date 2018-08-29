@@ -5,40 +5,26 @@
 [![Build Status][ico-travis]][link-travis]
 [![StyleCI][ico-styleci]][link-styleci]
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+A lightweight yet powerful Auction Engine for Laravel 5.5 and above.
 
 ## Installation
 
 Via Composer
 
 ``` bash
-$ composer require soumen/auction
+$ composer require soumen-dey/laravel-auction
 ```
+
+#### Note: This package is still under development and it's usage is highly discouraged.
 
 ## Usage
 
-## Change log
+More will be added soon.
 
-Please see the [changelog](changelog.md) for more information on what has changed recently.
-
-## Testing
-
-``` bash
-$ composer test
-```
-
-## Contributing
-
-Please see [contributing.md](contributing.md) for details and a todolist.
-
-## Security
-
-If you discover any security related issues, please email author email instead of using the issue tracker.
 
 ## Credits
 
-- [author name][link-author]
-- [All Contributors][link-contributors]
+- [Soumen Dey]('https://github.com/soumen-dey')
 
 ## License
 
@@ -49,9 +35,9 @@ license. Please see the [license file](license.md) for more information.
 [ico-travis]: https://img.shields.io/travis/soumen/auction/master.svg?style=flat-square
 [ico-styleci]: https://styleci.io/repos/12345678/shield
 
-[link-packagist]: https://packagist.org/packages/soumen/auction
-[link-downloads]: https://packagist.org/packages/soumen/auction
-[link-travis]: https://travis-ci.org/soumen/auction
+[link-packagist]: https://packagist.org/packages/soumen-dey/laravel-auction
+[link-downloads]: https://packagist.org/packages/soumen-dey/laravel-auction
+[link-travis]: https://travis-ci.org/soumen-dey/laravel-auction
 [link-styleci]: https://styleci.io/repos/12345678
-[link-author]: https://github.com/soumen
+[link-author]: https://github.com/soumen-dey
 [link-contributors]: ../../contributors]
